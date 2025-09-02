@@ -3,6 +3,7 @@ names=["A","B","C"]
 freq={}
 i=0
 j=0
+#two pointer approach
 while i<len(ids) and j<len(names):
     if ids[i] not in freq:
         freq[ids[i]]=names[j]
