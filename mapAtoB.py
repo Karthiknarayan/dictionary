@@ -7,10 +7,8 @@ j=0
 while i<len(ids) and j<len(names):
     if ids[i] not in freq:
         freq[ids[i]]=names[j]
-
     else:
         freq[ids[i]]+=", "+names[j]
-
     i+=1
     j+=1    
 
